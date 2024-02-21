@@ -55,7 +55,6 @@ export function getAmplitudeIdentity() {
 export function resetAnalytics() {
     analytics.reset();
 }
-console.log('test')
 
 /**
  * Creates the analytics handlers.

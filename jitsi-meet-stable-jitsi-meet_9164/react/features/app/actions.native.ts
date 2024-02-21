@@ -197,8 +197,7 @@ export function maybeRedirectToWelcomePage(_options?: any): any {
  */
 export function reloadNow() {
     return (dispatch: IStore['dispatch'], getState: IStore['getState']) => {
-        console.log('testing')
-
+       
         const state = getState();
         const { locationURL } = state['features/base/connection'];
 
